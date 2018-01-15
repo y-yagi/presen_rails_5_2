@@ -1,5 +1,5 @@
 {
-  "name": "Rails 5.2",
+  "name": "presen_rails_5_2",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
@@ -20,7 +20,6 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:y-yagi/presen_rails_5_2.git"
-
   },
   "scripts": {
     "test": "grunt test"
