@@ -10,5 +10,7 @@
   "active_storage_06.md",
   "redis_cache_store_01.md",
   "redis_cache_store_02.md",
+  "early_hint_01.md",
+  "early_hint_02.md",
   "matome.md"
 ]
