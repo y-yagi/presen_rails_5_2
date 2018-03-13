@@ -1,4 +1,5 @@
-### この資料について
+### この発表について
 
-* Rails 5.2のMajor Featuresについて記載したものです
-* 資料は1/15日時点の情報(commit: [562dd04](https://github.com/rails/rails/tree/562dd0494a90d9d47849f052e8913f0050f3e494))を元に作成されています
+* Rails 5.2のMajor Featuresについて発表した、[Ginza.rb 第55回](https://ginzarb.doorkeeper.jp/events/69355)の再演です
+  * その時の資料は https://y-yagi.github.io/presen_rails_5_2/# にあります
+  * ちょいちょい内容を更新しています

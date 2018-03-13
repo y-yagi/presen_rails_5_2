@@ -1,6 +1,10 @@
-### [ActiveStorage::Preview](http://edgeapi.rubyonrails.org/classes/ActiveStorage/Preview.html)
+### 提供されている機能
 
-* `PDFPreviewer`は[mupdf](https://mupdf.com/)に、`VideoPreviewer`は[ffmpeg](https://ffmpeg.org/)にそれぞれ依存している
-  * どっちもコマンド直接叩いている
-* PDFの場合は最初のページが、Videoの場合は最初のフレームがpreview画像として使用される
-* 上記Analyzerを使用したい場合は、独自にAnalyzerを追加すればOK
+* 画像の変換
+  * MiniMagickが使われている
+  * 参照時に変換
+* ファイルのプレビュー
+  * 画像だけでなく、pdf、videoもサポート(別途ライブラリのインストールが必要)
+* ダイレクトアップロード
+  * formからサーバを介さず直接アップロード可能
+* 期限付きURL
