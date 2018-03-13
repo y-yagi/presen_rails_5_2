@@ -1,5 +1,8 @@
-#### Accelerated Mobile Pages
+### Major Features
 
-<small>AMPに対応しているモバイルサイトは"AMP"という文字と⚡(AMPマーク)が表示される</small>
-
-<img src="resources/img/screenshot_02.png" height=500px>
+* Active Storage
+* Redis Cache Store
+* HTTP/2 Early hints support
+* Credentials
+* Default Content Security Policy
+* あと、Bootsnapとkey recycling辺りが入ったり入らなかったり
