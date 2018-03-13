@@ -1,5 +1,12 @@
-### [Default Content Security Policy](https://github.com/rails/rails/pull/31162)
+### [Content Security Policy](https://github.com/rails/rails/pull/31162)
 
-* デフォルトでちゃんとしているので、何も考えずにそのまま適用すると結構トラブルと思う
-* [Upgrade CSP script_src default from unsafe_inline to nonce approach](https://github.com/rails/rails/issues/31689)
-* config.content_security_policy_report_onlyにtrueを指定するとレポートだけを行う(ブロックはしない)モードになるので、ちょっと不安がある場合はそちらでとりあえず試してみるのが良いのでは無いでしょうか
+* javascript_tagメソッドでnonceが使えるようになっている
+
+```ruby
+<%= javascript_tag nonce: true do %>
+  alert('Hello, World!');
+<% end %>
+```
+
+* これにより、inlineでのJavaScriptを禁止している場合も、一部のJSだけ実行、という事ができる
+  * rails-ujsはこれを使っている
